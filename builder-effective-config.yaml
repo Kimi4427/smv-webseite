@@ -1,0 +1,13 @@
+directories:
+  output: dist
+  buildResources: build
+appId: kim.hsi.smv
+files:
+  - filter:
+      - out/**/*
+      - main.js
+      - package.json
+      - icon.ico
+win:
+  target: nsis
+electronVersion: 33.4.11
